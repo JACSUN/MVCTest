@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<table>
+			<tr>
+				<th>ID</th><th>分类名</th>
+			</tr>
+			<?php 
+				foreach($data as $v){
+					echo "<tr><td>{$v['id']}</td><td>{$v['name']}</td></tr>";
+				}
+			?>
+		</table>
+	</body>
+</html>

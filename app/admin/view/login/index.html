@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>后台管理登陆</title>
+	</head>
+	<body> 
+		<form method="post" id="loginForm" action="/?p=admin&c=login&a=loginExec">
+			用户名：<input type="text" name="username" required/></br>
+			密码：<input type="text" name="password" required/></br>
+			<!--验证码：<input type="text" name="captcha" required/>
+			<img src"/?p=admin&c=login&a=captcha" />-->
+			<input type="submit" value="登陆" />
+		</form>
+		<script src="../../../../public/js/jquery-3.1.1.js"></script>
+		<script src="../../../../public/common/ajaxForm.js"></script>
+		
+		
+	</body>
+</html>
